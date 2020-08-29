@@ -1,0 +1,37 @@
+{
+  "name": "cdk_tutorials",
+  "version": "0.1.0",
+  "bin": {
+    "cdk_tutorials": "bin/cdk_tutorials.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "^1.57.0",
+    "@types/jest": "^26.0.9",
+    "@types/node": "^14.0.27",
+    "aws-cdk": "^1.57.0",
+    "jest": "^26.2.2",
+    "ts-jest": "^26.1.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.57.0",
+    "@aws-cdk/aws-dynamodb": "^1.57.0",
+    "@aws-cdk/aws-lambda": "^1.57.0",
+    "@aws-cdk/aws-s3": "^1.57.0",
+    "@aws-cdk/aws-sns": "^1.57.0",
+    "@aws-cdk/aws-sns-subscriptions": "^1.57.0",
+    "@aws-cdk/aws-sqs": "^1.57.0",
+    "@aws-cdk/core": "^1.57.0",
+    "cdk-dynamo-table-viewer": "^3.1.2",
+    "source-map-support": "^0.5.19",
+    "update": "^0.7.4",
+    "upgrade": "^1.1.0"
+  }
+}
